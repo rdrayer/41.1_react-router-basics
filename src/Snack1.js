@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Snack1 = () => {
+function Snack1() {
     return (
         <div>
             <h3>This is Snack1</h3>
