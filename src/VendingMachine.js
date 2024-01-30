@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom';
 function VendingMachine() {
     return (
         <div>
-            <Link to="/snack1">Snack1</Link>
+         <ul>
+            <li><Link to="/snack1">Snack1</Link></li>
+            <li><Link to="/snack2">Snack2</Link></li>
+            <li><Link to="/snack3">Snack3</Link></li>
+         </ul>
         </div>
     );
 }

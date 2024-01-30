@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Snack1 = () => {
+const Snack2 = () => {
     return (
         <div>
-            <h3>This is Snack1</h3>
+            <h3>This is Snack2</h3>
             <Link to="/">
                 Back to vending machine
             </Link>
@@ -12,4 +12,4 @@ const Snack1 = () => {
     );
 }
 
-export default Snack1;
+export default Snack2;
